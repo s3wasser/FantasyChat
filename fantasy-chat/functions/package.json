@@ -1,0 +1,16 @@
+{
+  "name": "fantasyChat",
+  "description": "Retrieve fantasy information for active NHL players.",
+  "version": "0.0.1",
+  "author": "Sabrina Wasserman",
+  "engines": {
+    "node": "~4.2"
+  },
+  "dependencies": {
+    "actions-on-google": "^1.0.0",
+    "btoa": "^1.1.2",
+    "firebase-admin": "~4.2.1",
+    "firebase-functions": "^0.5.7",
+    "mysportsfeeds-node": "^0.2.2"
+  }
+}

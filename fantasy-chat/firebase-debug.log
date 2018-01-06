@@ -1,0 +1,24 @@
+[debug] [2017-12-18T19:14:31.740Z] ----------------------------------------------------------------------
+[debug] [2017-12-18T19:14:31.743Z] Command:       /usr/local/Cellar/node/8.5.0/bin/node /usr/local/bin/firebase deploy --only functions
+[debug] [2017-12-18T19:14:31.743Z] CLI Version:   3.13.1
+[debug] [2017-12-18T19:14:31.743Z] Platform:      darwin
+[debug] [2017-12-18T19:14:31.743Z] Node Version:  v8.5.0
+[debug] [2017-12-18T19:14:31.744Z] Time:          Mon Dec 18 2017 14:14:31 GMT-0500 (EST)
+[debug] [2017-12-18T19:14:31.744Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-18T19:14:31.771Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-18T19:14:31.771Z] > authorizing via signed-in user
+[debug] [2017-12-18T19:14:31.775Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-12-18T19:14:31.776Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/2BoEQWQ_9FJqruLvojW_hbhEh-u3rYhUavU8n8SDx8YA5nBZPAM7hNWwD38vjlyz',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Dec 18 2017 14:14:31 GMT-0500 (EST)
+[debug] [2017-12-18T19:14:34.797Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-18T19:14:34.827Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fantasy-chat-3e7ff  
+ Mon Dec 18 2017 14:14:34 GMT-0500 (EST)
+[debug] [2017-12-18T19:14:40.793Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-18T19:14:40.795Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fantasy-chat-3e7ff/tokens  
+ Mon Dec 18 2017 14:14:40 GMT-0500 (EST)
+[debug] [2017-12-18T19:14:41.850Z] <<< HTTP RESPONSE 200
